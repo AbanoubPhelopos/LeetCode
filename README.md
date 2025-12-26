@@ -26,6 +26,7 @@ A log of LeetCode Daily Challenges to build consistency.
 | Date | # | Problem | Difficulty | Solution |
 | :---: | :---: | :--- | :---: | :---: |
 | Dec 25, 2025 | 3075 | [Maximize Happiness of Selected Children](https://leetcode.com/problems/maximize-happiness-of-selected-children/) | 🟡 | [Link](./Daily/2025-12-25_3075_Maximize_Happiness/README.md) |
+| Dec 26, 2025 | 2483 | [Minimum Penalty for a Shop](https://leetcode.com/problems/minimum-penalty-for-a-shop/) | 🟡 | [Link](./Daily/2025-12-26_2483_Minimum_Penalty_Shop/README.md) |
 | ... | ... | ... | ... | ... |
 
 > *Consistency is key. 🧠*

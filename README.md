@@ -29,6 +29,7 @@ A log of LeetCode Daily Challenges to build consistency.
 | Dec 26, 2025 | 2483 | [Minimum Penalty for a Shop](https://leetcode.com/problems/minimum-penalty-for-a-shop/) | 🟡 | [Link](./Daily/2025-12-26_2483_Minimum_Penalty_Shop/README.md) |
 | Dec 27, 2025 | 2402 | [Meeting Rooms III](https://leetcode.com/problems/meeting-rooms-iii/) | 🔴 | [Link](./Daily/2025-12-27_2402_Meeting_Rooms_III/README.md) |
 | Dec 28, 2025 | 1351 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | 🟢 | [Link](./Daily/2025-12-28_1351_Count_Negative_Numbers_in_Sorted_Matrix/README.md) |
+| Dec 29, 2025 | 756 | [Pyramid Transition Matrix](https://leetcode.com/problems/pyramid-transition-matrix/) | 🟡 | [Link](./Daily/2025-12-29_756_Pyramid_Transition_Matrix/README.md) |
 | ... | ... | ... | ... | ... |
 
 > *Consistency is key. 🧠*

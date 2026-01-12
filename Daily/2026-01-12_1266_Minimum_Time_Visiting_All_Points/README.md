@@ -38,3 +38,20 @@ Total time = 7 seconds
 *   `1 <= n <= 100`
 *   `points[i].length == 2`
 *   `-1000 <= points[i][0], points[i][1] <= 1000`
+
+## Solution Explanation
+
+To minimize the time to travel between two points `(x1, y1)` and `(x2, y2)` on a grid where we can move vertically, horizontally, or diagonally (Chebyshev distance):
+
+1.  We want to maximize the diagonal movement because it reduces both x and y distances simultaneously.
+2.  The maximum number of diagonal steps we can take is limited by the smaller of the differences `|x1 - x2|` and `|y1 - y2|`.
+3.  After moving diagonally as much as possible, we align with one coordinate (either x or y matches the target).
+4.  The remaining distance must be covered by straight moves (horizontal or vertical), which is the absolute difference between the remaining deltas.
+
+Mathematically, this simplifies to **`max(|x1 - x2|, |y1 - y2|)`**.
+*   The diagonal moves cover `min(|dx|, |dy|)` distance.
+*   The remaining straight moves cover `max(|dx|, |dy|) - min(|dx|, |dy|)` distance.
+*   Total time = `min(|dx|, |dy|) + (max(|dx|, |dy|) - min(|dx|, |dy|))` = `max(|dx|, |dy|)`.
+
+We sum this value for every consecutive pair of points in the path.
+

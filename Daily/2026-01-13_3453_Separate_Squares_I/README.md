@@ -2,7 +2,7 @@
 
 **Difficulty:** Medium  
 **Topics:** Binary Search, Geometry, Array  
-**Date:** 2026-01-14
+**Date:** 2026-01-13
 
 ## Problem Description
 

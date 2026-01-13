@@ -1,12 +1,4 @@
-#include <algorithm>
-#include <bitset>
-#include <cmath>
-#include <cstring>
-#include <iostream>
-#include <vector>
 
-
-using namespace std;
 
 const int N = 316;
 bitset<N + 1> isPrime = 0;

@@ -8,20 +8,20 @@ Welcome to my personal LeetCode repository! This project serves as a comprehensi
 
 <!-- You can update these badges or progress bars manually or using a script -->
 ![Language](https://img.shields.io/badge/Language-C++-blue?style=for-the-badge&logo=c%2B%2B)
-![Problems Solved](https://img.shields.io/badge/Problems%20Solved-12-green?style=for-the-badge)
+![Problems Solved](https://img.shields.io/badge/Problems%20Solved-23-green?style=for-the-badge)
 ![Study Plan](https://img.shields.io/badge/Focus-DSP%20%26%20Algorithms-orange?style=for-the-badge)
 
 | Category | Solved |
 | :--- | :---: |
-| 🟢 Easy | 2 |
-| 🟡 Medium | 7 |
-| 🔴 Hard | 3 |
+| 🟢 Easy | 4 |
+| 🟡 Medium | 13 |
+| 🔴 Hard | 6 |
 
 ---
 
 ## 📅 Daily Challenges
 
-Number of problems solved daily 43
+Number of problems solved daily 23
 
 > *Consistency is key. 🧠*
 

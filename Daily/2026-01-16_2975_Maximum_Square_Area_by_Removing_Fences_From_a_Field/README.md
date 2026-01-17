@@ -35,3 +35,28 @@ Explanation: It can be proved that there is no way to create a square field by r
 - `1 < hFences[i] < m`
 - `1 < vFences[i] < n`
 - `hFences` and `vFences` are unique.
+
+## Solution Explanation
+
+We want to find the largest square area, which means finding the largest common side length `S` such that there exists a horizontal gap of size `S` and a vertical gap of size `S`.
+
+### Approach
+
+1.  **Add Boundary Fences:**
+    *   The field is bounded by `1` and `m` horizontally. Add these to `hFences`.
+    *   The field is bounded by `1` and `n` vertically. Add these to `vFences`.
+2.  **Calculate All Possible Gaps:**
+    *   Any square region must be bounded by two horizontal fences (say at `h1` and `h2`) and two vertical fences (say at `v1` and `v2`).
+    *   The height of such a region is `abs(h1 - h2)` and the width is `abs(v1 - v2)`.
+    *   We can iterate through all pairs of horizontal fences to find all possible vertical spans (heights) available. Store these valid heights in a Hash Set.
+    *   Similarly, iterate through all pairs of vertical fences to find all possible horizontal spans (widths) available.
+3.  **Find Maximum Intersection:**
+    *   While calculating the spans for the second dimension (e.g., widths), check if that span exists in the set of heights calculated previously.
+    *   Track the maximum common span `maxL`.
+4.  **Optimization:**
+    *   To improve performance, process the dimension with fewer fences first (store its gaps in the HashSet), and then iterate through the dimension with more fences to check for existence. This reduces the number of set insertions.
+5.  **Result:**
+    *   If `maxL` is found, return `maxL * maxL % MOD`.
+    *   Otherwise, return `-1`.
+
+The complexity is roughly `O(H^2 + V^2)` where H and V are the number of horizontal and vertical fences respectively. Given the constraints (up to 600), this is around `3.6 * 10^5` operations, which fits well within the time limit.

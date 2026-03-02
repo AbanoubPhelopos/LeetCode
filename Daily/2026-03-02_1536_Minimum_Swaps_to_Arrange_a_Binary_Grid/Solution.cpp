@@ -1,9 +1,4 @@
-#include <algorithm>
-#include <iostream>
-#include <vector>
 
-
-using namespace std;
 
 // variant
 short R1[200]; // pos for rightmoost 1
